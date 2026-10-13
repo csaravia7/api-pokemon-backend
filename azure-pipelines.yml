@@ -24,6 +24,6 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: 'pokemon-backend'
+        dockerfile: 'Dockerfile'
         tags: |
           $(tag)
